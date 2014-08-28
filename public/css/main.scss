@@ -1,0 +1,72 @@
+body{
+	background-color: #555;
+}
+
+body,
+body *{
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+	font-family: 'Open Sans', sans-serif;
+}
+
+.billboard-container{
+	position: relative;
+	width: 900px;
+	margin: 0 auto;
+
+	.attask{
+		position: absolute;
+		top: 30px;
+		left: 26px;
+		height: 342px;
+		width: 853px;
+		margin: 0 auto;
+		background-color: #333;
+
+		.text{
+			position: absolute;
+			top: 20px;
+			left: 20px;
+			right: 20px;
+			bottom: 60px;
+			text-align: center;
+			font-size: 40px;
+			color: white;
+			&:hover,
+			&:active{
+				border: 1px solid #999;
+			}
+		}
+
+		.logo{
+			position: absolute;
+			bottom: 20px;
+			left:20px;
+			> img{
+				width: 100px;
+			}
+		}
+
+		.kickin{
+			position: absolute;
+			bottom: 20px;
+			right:20px;
+			color: white;
+			font-size: 26px;
+		}
+
+		.bottom-border{
+			position: absolute;
+			bottom: 0;
+			left: 0;
+			right: 0;
+			height: 10px;
+			background-color: #d5a62a;
+		}
+	}
+	.billboard{
+		display: block;
+		width: 100%;
+	}
+}

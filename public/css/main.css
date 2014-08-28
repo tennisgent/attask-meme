@@ -1,0 +1,58 @@
+body {
+  background-color: #555; }
+
+body,
+body * {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  font-family: 'Open Sans', sans-serif; }
+
+.billboard-container {
+  position: relative;
+  width: 900px;
+  margin: 0 auto; }
+  .billboard-container .attask {
+    position: absolute;
+    top: 30px;
+    left: 26px;
+    height: 342px;
+    width: 853px;
+    margin: 0 auto;
+    background-color: #333; }
+    .billboard-container .attask .text {
+      position: absolute;
+      top: 20px;
+      left: 20px;
+      right: 20px;
+      bottom: 60px;
+      text-align: center;
+      font-size: 40px;
+      color: white;
+      border: 1px solid transparent; }
+      .billboard-container .attask .text:hover, .billboard-container .attask .text:active {
+        border: 1px solid #999; }
+    .billboard-container .attask .logo {
+      position: absolute;
+      bottom: 20px;
+      left: 20px; }
+      .billboard-container .attask .logo > img {
+        width: 100px; }
+    .billboard-container .attask .kickin {
+      position: absolute;
+      bottom: 20px;
+      right: 20px;
+      color: white;
+      font-size: 26px; }
+    .billboard-container .attask .bottom-border {
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      height: 10px;
+      background-color: #d5a62a; }
+  .billboard-container .billboard {
+    display: block;
+    width: 100%; }
+
+/*# sourceMappingURL=main.css.map */
